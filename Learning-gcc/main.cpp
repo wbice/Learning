@@ -119,6 +119,6 @@ int main()
     int *p = (int*)(&array+1);
     int *pp = (int*)(array+1);
     printf("%d\n", *(array+1));
-    printf("%d\n", *(p+1));
+    print("Test git\n");
     return 0;
 }
